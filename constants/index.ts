@@ -5,15 +5,11 @@ export const navLinks = [
 		icon: '/assets/icons/home.svg',
 	},
 	{
-		label: 'Image Restore',
-		route: '/transformations/add/restore',
-		icon: '/assets/icons/image.svg',
-	},
-	{
 		label: 'Generative Fill',
 		route: '/transformations/add/fill',
 		icon: '/assets/icons/stars.svg',
 	},
+
 	{
 		label: 'Object Remove',
 		route: '/transformations/add/remove',
@@ -23,6 +19,11 @@ export const navLinks = [
 		label: 'Object Recolor',
 		route: '/transformations/add/recolor',
 		icon: '/assets/icons/filter.svg',
+	},
+	{
+		label: 'Image Restore',
+		route: '/transformations/add/restore',
+		icon: '/assets/icons/image.svg',
 	},
 	{
 		label: 'Background Remove',
